@@ -1,42 +1,30 @@
 //your JS code here. If required.
 const div1=document.getElementById("square1");
+const div2=document.getElementById("square2");
+const div3=document.getElementById("square3");
+
 div1.addEventListener("mouseenter",function(){
-	let div2=document.getElementById("square2");
-	div2.style.backgroundColor="#6F4E37";
-	let div3=document.getElementById("square3");
-	div3.style.backgroundColor="#6F4E37";
+	div2.style.backgroundColor="rgb(111, 78, 55)";
+	div3.style.backgroundColor="rgb(111, 78, 55)";
 });
 div1.addEventListener("mouseleave",function(){
-	let div2=document.getElementById("square2");
-	div2.style.backgroundColor="#E6E6FA";
-	let div3=document.getElementById("square3");
-	div3.style.backgroundColor="#E6E6FA";
+	div2.style.backgroundColor="rgb(230, 230, 250)";
+	div3.style.backgroundColor="rgb(230, 230, 250)";
 });
 
-const div2=document.getElementById("square2");
 div2.addEventListener("mouseenter",function(){
-	let div1=document.getElementById("square1");
-	div1.style.backgroundColor="#6F4E37";
-	let div3=document.getElementById("square3");
-	div3.style.backgroundColor="#6F4E37";
+	div1.style.backgroundColor="rgb(111, 78, 55)";
+	div3.style.backgroundColor="rgb(111, 78, 55)";
 });
 div2.addEventListener("mouseleave",function(){
-	let div1=document.getElementById("square1");
-	div1.style.backgroundColor="#E6E6FA";
-	let div3=document.getElementById("square3");
-	div3.style.backgroundColor="#E6E6FA";
+	div1.style.backgroundColor="rgb(230, 230, 250)";
+	div3.style.backgroundColor="rgb(230, 230, 250)";
 });
-const div3=document.getElementById("square3");
 div3.addEventListener("mouseenter",function(){
-	let div1=document.getElementById("square1");
-	div1.style.backgroundColor="#6F4E37";
-	let div2=document.getElementById("square2");
-	div2.style.backgroundColor="#6F4E37";
+	div2.style.backgroundColor="rgb(111, 78, 55)";
+	div1.style.backgroundColor="rgb(111, 78, 55)";
 });
-
 div3.addEventListener("mouseleave",function(){
-	let div1=document.getElementById("sqaure1");
-	div1.style.backgroundColor="#E6E6FA";
-	let div2=document.getElementById("square2");
-	div2.style.backgroundColor="#E6E6FA";
-})
+	div2.style.backgroundColor="rgb(230, 230, 250)";
+	div1.style.backgroundColor="rgb(230, 230, 250)";
+});
